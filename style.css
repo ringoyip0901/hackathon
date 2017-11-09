@@ -1,0 +1,160 @@
+html{
+	background-color: #fafafa;
+}
+.information {
+	width: 935;
+    height: 618;
+    text-align: center;
+    margin:50 142.5 50 205;
+
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 0px;
+}
+
+.container {
+
+   max-width: 1000px;
+   display: flex;
+   flex-direction: row;
+   margin: 0 auto;
+}
+
+.container .col-6{
+	padding: 15px;
+    margin-left: 14px;
+    height: 606;
+    width: 350;
+}
+
+
+.login{
+	width: 350;
+	height:352;
+	border:1px solid black;
+	background-color: white;
+	border-radius:0.25rem;
+	border-color:#dcd7d7;
+}
+
+.login input{
+	width:258;
+	height:34;
+	font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 0.25rem;
+    opacity:0.75;
+    background-color:#fafafa;
+}
+.login button{
+	width:258;
+	height:28;
+	background: #3897f0;
+    border-color: #3897f0;
+    color: #fff;
+    font-size:14px;
+    font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    border-radius:0.25rem;
+    font-weight: bold
+}
+
+.login a {
+	text-decoration: none;
+}
+
+.login i {
+	color:#4f4fb1;
+}
+.app{
+	margin-top: 33px;
+	margin-bottom:25px;
+    font-size: 14px;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+}
+
+.decision{
+	height:60;
+	width:350;
+	border:1px solid black;
+	margin-top: 11px;
+    padding-top: 15px;
+    background-color: white;
+    font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    border-radius:0.25rem;
+    border-color:#dcd7d7;
+    color:#211f1f;
+}
+
+.facebookLink{
+	color:#385185;
+	font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	font-size:14px;
+}
+
+.forgotPW{
+	color:#385185;
+	font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	font-size:11px;
+}
+
+h1{
+	margin: 22px auto 8px;
+	font-family: "Brush Script MT", cursive;
+	margin-bottom:0px;
+}
+
+.OR { 
+   text-align: center; 
+   border-top: 0.5px solid #aba6a6; 
+   line-height: 0.1em;
+   margin: 25px 0 20px; 
+   font-size:15px;
+    width: 260px;
+    margin-left: 43px
+}
+
+.OR span{
+    background: #fff;
+    padding: 0 10px;
+    color: #aba6a6;
+    font-weight:bold;
+
+}
+
+footer{
+	color:#003569;
+	font-size: 13px;
+    font-weight: bold;
+    word-spacing: 9px;
+    width: 1200px;
+    height:60px;
+    font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+}
+
+footer .right{
+	word-spacing:1;
+	color:#b9b6b6;
+	margin-left:-10px;
+}
+footer i {
+	color:#b9b6b6;
+}
